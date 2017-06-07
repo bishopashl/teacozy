@@ -1,0 +1,131 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  width:100%;
+  height: 69px;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  padding-right: 40px;
+  justify-content: flex-end;
+}
+
+nav span {
+  justify-content: flex-end;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.logo {
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  margin: 0px 25px 10px 25px;
+}
+
+.missionimage {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  z-index: 2;
+  margin-top: 80px;
+}
+
+.missionheading {
+  background-color: black;
+  z-index: 1;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.monthheading{
+  display: inline-block;
+  width: 1000px;
+}
+
+.monthimage {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  margin: 0px 200px 10px 200px;
+}
+.monthimage img {
+  height: 200px;
+  width: 300px;
+  margin: 0px 10px;
+}
+
+.locationcontainer {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  /*display: flex;*/
+  justify-content: center;
+  margin: 0px 100px 10px 100px;
+}
+
+.locationheading {
+  /*display: flex;*/
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.downtown {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 20px;
+}
+
+.eastbayside {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 20px;
+}
+.oakdale {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 20px;
+}
+
+.footer {
+  height: 200px
+}
+
+.copyright {
+  text-align: left;
+  margin: 20px;
+}
